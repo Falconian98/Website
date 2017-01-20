@@ -1,3 +1,5 @@
+/* removed the class block and any import statements */
+
 Ball[] balls = new Ball[10];
 float gravity = 0.1;
 int cnt = 0;
