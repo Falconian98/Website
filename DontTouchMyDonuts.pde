@@ -9,7 +9,7 @@ boolean start = false;
 boolean textBig = false;
 boolean textBig2 = false;
 
-PShape Donut;
+PShape alex;
 
 void setup() {
   size(400,400);
@@ -17,7 +17,7 @@ void setup() {
   frameRate(30);
   
 // Variable Initialization   
-Donut = loadShape("http://raw.githubusercontent.com/Falconian98/Website/gh-pages/Donut.svg");  // Donut equals loadShape("Donut.svg")
+alex = loadShape(Donut.svg");  // alex equals loadShape("Donut.svg")
 
   // Initialize Donut index 0
   donuts[0] = new Donut(50,0,16);
@@ -209,7 +209,7 @@ void display() {
 // Display the Donut
 fill(255);
 noStroke();
-shape(Donut,x,y,50,50);
+shape(alex,x,y,50,50);
 fill(255);
   PFont f = createFont("Vani", 50);
   textFont(f);
