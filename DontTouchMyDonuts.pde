@@ -17,7 +17,7 @@ void setup() {
   frameRate(30);
   
 // Variable Initialization   
-Donut = loadShape("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/375px-Glazed-Donut.jpg");  // Donut equals loadShape("Donut.svg")
+Donut = loadShape("http://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/375px-Glazed-Donut.jpg");  // Donut equals loadShape("Donut.svg")
 
   // Initialize Donut index 0
   donuts[0] = new Donut(50,0,16);
