@@ -17,7 +17,7 @@ void setup() {
   frameRate(30);
   
 // Variable Initialization   
-alex = loadShape(Donut.svg");  // alex equals loadShape("Donut.svg")
+alex = loadShape("Donut.svg");  // alex equals loadShape("Donut.svg")
 
   // Initialize Donut index 0
   donuts[0] = new Donut(50,0,16);
