@@ -15,7 +15,6 @@ void setup() {
   size(400,400);
   smooth();
   frameRate(30);
-  Donut = new Donut(0, 50, 50)
   
 // Variable Initialization   
 Donut = loadShape("Donut.svg");  // Donut equals loadShape("Donut.svg")
