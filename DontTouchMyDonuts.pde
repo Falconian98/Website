@@ -1,7 +1,7 @@
 /* removed the class block and any import statements */
 
 Donut[] donuts = new Donut[15];
-float gravity = 0.1;
+float gravity = 0.2;
 int cnt = 0;
 int score = 0;
 boolean stop = true;
